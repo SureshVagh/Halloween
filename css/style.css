@@ -18,9 +18,12 @@ a {
 .main-block {
     width: 100%;
     overflow: hidden;
-    background-image: url(../images/only-theme-1page.png), url(../images/all-page.png);
+    background-image:
+        url('../images/all-page.png'),
+        url('../images/only-theme-1page.png');
     position: relative;
-    background-repeat: repeat;
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
 }
 
 .header {
@@ -29,8 +32,8 @@ a {
 
 .left-img {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -29px;
+    left: -30px;
 }
 
 .logo-container {
@@ -59,4 +62,27 @@ li {
 
 .menu-item {
     padding: 0 20px;
+}
+
+.right-img {
+    position: absolute;
+    top: -63px;
+    right: -83px;
+}
+
+.date {
+    line-height: 55px;
+    margin: 50px auto 10px;
+    color: #E6E6E6;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Noto Sans", Arial, Tahoma, sans-serif;
+}
+
+.helloween-name {
+    text-align: center;
+    font-size: 70px;
+    line-height: 70px;
+    color: #F0D9B1;
+    font-family: 'Permanent Marker';
 }
