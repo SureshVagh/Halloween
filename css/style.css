@@ -15,19 +15,24 @@ a {
     color: #ffffff;
 }
 
-.main-block {
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.all-page-theme {
+    width: 100%;
+    background-image: url('../images/only-theme-1page.png');
+}
+
+.welcome-page {
     width: 100%;
     overflow: hidden;
     background-image:
-        url('../images/all-page.png'),
-        url('../images/only-theme-1page.png');
+        url('../images/all-page.png');
     position: relative;
     background-repeat: no-repeat, repeat;
     background-size: cover;
-}
-
-.header {
-    width: 100%;
 }
 
 .left-img {
@@ -70,9 +75,9 @@ li {
     right: -83px;
 }
 
-.date {
+.first-date {
     line-height: 55px;
-    margin: 50px auto 10px;
+    margin: 50px auto 18px;
     color: #E6E6E6;
     font-size: 20px;
     text-align: center;
@@ -85,4 +90,226 @@ li {
     line-height: 70px;
     color: #F0D9B1;
     font-family: 'Permanent Marker';
+}
+
+.sign-up-container {
+    width: 15%;
+    background-color: rgb(246, 166, 38);
+    font-family: "Noto Sans";
+    text-align: center;
+    line-height: 43px;
+    font-weight: 700;
+    font-size: 19px;
+    margin: 35px auto;
+    border-color: rgba(255, 255, 255, 0);
+    border-style: none;
+    box-shadow: rgba(47, 19, 5, 0.35) 0px 4px 13px 6px;
+    border-radius: 25px;
+    color: rgb(139, 52, 0);
+}
+
+.sign-up-color {
+    color: rgb(139, 52, 0);
+}
+
+.fb-lorem-container {
+    width: 38%;
+    margin: 40px auto 0;
+    overflow: auto;
+}
+
+.fb-img {
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+
+.fb-content {
+    width: 80%;
+    float: left;
+    color: #ffffff;
+    line-height: 23px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Noto Sans";
+}
+
+.ghost-container {
+    width: 65%;
+    margin: auto;
+}
+
+.about-page {
+    width: 100%;
+    background-image:
+        url('../images/only-theme-1page.png');
+    position: relative;
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 100px 0px 0px;
+}
+
+.about-page-title {
+    text-align: center;
+    font-size: 50px;
+    margin: 0 0 15px;
+    color: #F0D9B1;
+    font-family: "Permanent Marker", Arial, Tahoma, sans-serif;
+}
+
+.map-logo {
+    text-align: center;
+}
+
+.london-date {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Noto Sans", Arial, Tahoma, sans-serif;
+    color: #E6E6E6;
+    padding: 15px 0;
+}
+
+.date-container {
+    width: 55%;
+    overflow: auto;
+    padding: 50px 0 150px;
+    margin: auto;
+    font-family: "Noto Sans", Arial, Tahoma, sans-serif;
+}
+
+.divider1-img {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.time-container {
+    width: 33.33%;
+    float: left;
+    margin: 10px 0px;
+}
+
+.time-number {
+    text-align: center;
+    font-size: 90px;
+    color: #FFFFFF;
+}
+
+.time-name {
+    text-align: center;
+    font-size: 18px;
+    color: #F6A626;
+    margin: 0 0 15px;
+}
+
+.boo-image {
+    height: 8%;
+}
+
+.attraction-page {
+    width: 100%;
+    background-color: #241c31;
+    padding: 150px 0 100px;
+}
+
+.eye {
+    position: absolute;
+}
+
+.attraction-title {
+    width: 65%;
+    padding: 50px 0px 70px;
+    margin: 0 auto 15px;
+    font-size: 50px;
+    line-height: 55px;
+    color: #F0D9B1;
+    font-family: "Permanent Marker", Arial, Tahoma, sans-serif;
+}
+
+.attraction-container {
+    width: 70%;
+    margin: 50px auto 90px auto;
+    overflow: auto;
+}
+
+.img {
+    width: 50%;
+    float: left;
+}
+
+.attraction-dscrptn {
+    width: 50%;
+    float: left;
+    padding: 60px;
+}
+
+.atrctn-title {
+    font-family: "Permanent Marker", Arial, Tahoma, sans-serif;
+    color: #F0D9B1;
+    font-size: 35px;
+    line-height: 42px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.attraction-about {
+    font-family: "Noto Sans", Arial, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    color: #e6e6e6;
+    margin: 30px 0px 15px;
+}
+
+.plan-page {
+    width: 100%;
+    background-image:
+        url('../images/only-theme-1page.png');
+    position: relative;
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 75px 0px;
+}
+
+.blank-div {
+    width: 100%;
+    padding: 20px;
+}
+
+.plan-about {
+    width: 52%;
+    overflow: auto;
+    margin: 20px auto;
+}
+
+.about-blank {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.plan-description {
+    width: 50%;
+    float: left;
+}
+
+.description-title {
+    font-family: "Permanent Marker", Arial, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    color: #F0D9B1;
+    padding: 15px 0px 0px 25px;
+}
+
+.desc {
+    font-family: "Noto Sans", Arial, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 31px;
+    color: #e6e6e6;
+    padding: 15px 0px 0px 25px;
+}
+
+.right-plan-description {
+    width: 50%;
+    text-align: right;
+    float: left;
 }
