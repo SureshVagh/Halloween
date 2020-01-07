@@ -16,8 +16,39 @@ a {
 }
 
 p {
-    margin: 0;
     padding: 0;
+    font-family: "Noto Sans", Arial, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    color: #e6e6e6;
+    margin: 0px 0px 15px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    line-height: 70px;
+    color: #F0D9B1;
+    font-family: "Permanent Marker", Arial, Tahoma, sans-serif;
+    font-weight: 100;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    margin: 0 0 15px;
+    color: #F0D9B1;
+    font-family: "Permanent Marker", Arial, Tahoma, sans-serif;
+    font-weight: 100;
+}
+
+h3 {
+    font-family: "Permanent Marker", Arial, Tahoma, sans-serif;
+    font-size: 35px;
+    margin: 0 0 15px;
+    color: #f0d9b1;
+    font-weight: 100;
 }
 
 .all-page-theme {
@@ -57,7 +88,6 @@ li {
     color: #E4C3EE;
 }
 
-
 .menu {
     width: 100%;
     font-family: "Noto Sans", Arial, Tahoma, sans-serif;
@@ -82,14 +112,6 @@ li {
     font-size: 20px;
     text-align: center;
     font-family: "Noto Sans", Arial, Tahoma, sans-serif;
-}
-
-.helloween-name {
-    text-align: center;
-    font-size: 70px;
-    line-height: 70px;
-    color: #F0D9B1;
-    font-family: 'Permanent Marker';
 }
 
 .sign-up-container {
@@ -127,6 +149,7 @@ li {
 .fb-content {
     width: 80%;
     float: left;
+    padding: 10px;
     color: #ffffff;
     line-height: 23px;
     font-size: 16px;
@@ -149,16 +172,9 @@ li {
     padding: 100px 0px 0px;
 }
 
-.about-page-title {
-    text-align: center;
-    font-size: 50px;
-    margin: 0 0 15px;
-    color: #F0D9B1;
-    font-family: "Permanent Marker", Arial, Tahoma, sans-serif;
-}
-
 .map-logo {
     text-align: center;
+    padding: 20px 0 0;
 }
 
 .london-date {
@@ -208,21 +224,11 @@ li {
 .attraction-page {
     width: 100%;
     background-color: #241c31;
-    padding: 150px 0 100px;
+    padding: 0px 0 100px;
 }
 
 .eye {
     position: absolute;
-}
-
-.attraction-title {
-    width: 65%;
-    padding: 50px 0px 70px;
-    margin: 0 auto 15px;
-    font-size: 50px;
-    line-height: 55px;
-    color: #F0D9B1;
-    font-family: "Permanent Marker", Arial, Tahoma, sans-serif;
 }
 
 .attraction-container {
@@ -236,27 +242,15 @@ li {
     float: left;
 }
 
+.attraction-title {
+    width: 70%;
+    margin: auto;
+}
+
 .attraction-dscrptn {
     width: 50%;
     float: left;
     padding: 60px;
-}
-
-.atrctn-title {
-    font-family: "Permanent Marker", Arial, Tahoma, sans-serif;
-    color: #F0D9B1;
-    font-size: 35px;
-    line-height: 42px;
-    font-weight: 400;
-    margin-top: 20px;
-}
-
-.attraction-about {
-    font-family: "Noto Sans", Arial, Tahoma, sans-serif;
-    font-size: 14px;
-    line-height: 25px;
-    color: #e6e6e6;
-    margin: 30px 0px 15px;
 }
 
 .plan-page {
@@ -275,7 +269,7 @@ li {
 }
 
 .plan-about {
-    width: 52%;
+    width: 60%;
     overflow: auto;
     margin: 20px auto;
 }
@@ -300,14 +294,6 @@ li {
     padding: 15px 0px 0px 25px;
 }
 
-.desc {
-    font-family: "Noto Sans", Arial, Tahoma, sans-serif;
-    font-size: 15px;
-    line-height: 31px;
-    color: #e6e6e6;
-    padding: 15px 0px 0px 25px;
-}
-
 .right-plan-description {
     width: 50%;
     text-align: right;
@@ -315,13 +301,14 @@ li {
 }
 
 .sign-up-sec-container {
-    width: 10%;
+    width: 12%;
     background-color: rgb(246, 166, 38);
     font-family: "Noto Sans";
     text-align: center;
     line-height: 43px;
     font-weight: 700;
     font-size: 19px;
+    padding: 10px;
     margin: 60px auto 0;
     border-color: rgba(255, 255, 255, 0);
     border-style: none;
@@ -384,6 +371,11 @@ li {
     background-position: center;
 }
 
+.feedback-page-title {
+    padding: 100px 0 0;
+    background-color: #2f2445;
+}
+
 .feedback-container {
     width: 35%;
     margin: auto;
@@ -400,6 +392,12 @@ li {
 
 .about-container {
     padding: 10px;
+    font-size: 13px;
+    background-color: #584b72;
+}
+
+..about-sec-container {
+    padding: 10px 0 150px ;
     font-size: 13px;
     background-color: #584b72;
 }
@@ -434,11 +432,8 @@ li {
     text-align: center;
 }
 
-.footer-content {
-    font-family: "Noto Sans", Arial, Tahoma, sans-serif;
-    font-size: 14px;
-    line-height: 25px;
-    padding: 15px 0 15px;
+.footer-logo-container{
+    padding: 0 0 30px;
 }
 
 .cpyright-container {
