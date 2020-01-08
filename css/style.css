@@ -373,7 +373,6 @@ li {
 
 .feedback-page-title {
     padding: 100px 0 0;
-    background-color: #2f2445;
 }
 
 .feedback-container {
@@ -396,8 +395,8 @@ li {
     background-color: #584b72;
 }
 
-..about-sec-container {
-    padding: 10px 0 150px ;
+.about-sec-container {
+    padding: 10px 0 150px;
     font-size: 13px;
     background-color: #584b72;
 }
@@ -432,7 +431,7 @@ li {
     text-align: center;
 }
 
-.footer-logo-container{
+.footer-logo-container {
     padding: 0 0 30px;
 }
 
